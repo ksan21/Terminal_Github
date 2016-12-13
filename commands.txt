@@ -2,3 +2,12 @@ cd
 cd Desktop
 mkdir test
 touch index.html styles.css aboutMe.txt
+git add index.html styles.css aboutMe.txt
+git commit -m "added first commit"
+git status
+git add aboutMe.txt
+git commit -m "updated aboutMe.txt"
+git add aboutMe.txt
+git commit -m "added some good movies to aboutMe.txt"
+git log -10
+git revert -n HEAD
